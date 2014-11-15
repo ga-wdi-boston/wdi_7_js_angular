@@ -10,10 +10,10 @@
 <!-- bind an expression -->
 <h1>Welcome {{ 1 + 1 }}</h1>
 
-<!-- bind to something in the scope object -->
+<!-- bind to a property on the scope object -->
 <h1>Welcome {{ person.name }}</h1>
 
-<!-- populate the person object in the scope object using ng-init directive -->
+<!-- populate the person object on the scope object using ng-init directive -->
 <h1 ng-init="person = {name: 'dan'}">Welcome {{ person.name }}</h1>
 
 <!-- input bound to a property on the scope using ng-model directive -->
