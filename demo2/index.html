@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Angular Demo 2</title>
+<script src="bower_components/angular/angular.js"></script>
+</head>
+<body ng-app="Demo">
+
+<div class="container" ng-controller="MainCtrl">
+    <h1>{{ greeting }} {{ person.firstName }} {{ person.lastName }}</h1>
+
+    <p>Favorite Color: <input type="text" ng-model="favColor" placeholder="red or green"></p>
+
+    <p>Favorite Fruits: {{ favFruits }}</p>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
