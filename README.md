@@ -25,8 +25,7 @@ WDI Angular
 * Use modules and controllers
 	* to define a $scope property
 	* to define a $scope method
-	* to communicate with an API
-* Use $http built in service
+* Use $http built in service to communicate with an API
 
 
 ### Day 2
