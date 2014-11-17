@@ -10,7 +10,7 @@
 
 <div class="container" ng-controller="MainCtrl">
 	<ul>
-	    <li ng-repeat="user in users">{{ user.first_name }} {{ user.last_name }}</li>
+	    <li ng-repeat="user in users">{{ user.first_name }} {{ user.last_name }} <a ng-href="" ng-click="deleteUser(user)">delete</a></li>
 	</ul>
 
 	<form role="form" name="createUserForm" ng-submit="createUser(user)" novalidate>
