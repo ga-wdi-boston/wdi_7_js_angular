@@ -18,5 +18,7 @@ angular.module('Demo').controller('MainCtrl', function($scope) {
 
     $scope.createUser = function(user) {
         $scope.users.push(user);
+
+        $scope.user = {};
     };
 });
