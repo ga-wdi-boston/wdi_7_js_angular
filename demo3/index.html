@@ -7,10 +7,8 @@
 </head>
 <body ng-app="Demo">
 
-<div class="container" ng-controller="MainCtrl">
-	<!-- <div class="form-group">
-	    <input type="text" ng-model="search" placeholder="Search">
-	</div> -->
+<div ng-controller="MainCtrl">
+	<input type="text" ng-model="search" placeholder="Search">
 
 	<ul>
 	    <li ng-repeat="user in users | filter:search">{{ user.first_name }} {{ user.last_name }}</li>
