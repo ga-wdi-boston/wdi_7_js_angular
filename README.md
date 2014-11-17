@@ -20,13 +20,15 @@ WDI Angular
 	* ng-submit
 	* ng-show
 	* ng-href
+	* ng-include
+	* ng-view
 * Implment bindings and expressions in HTML
 * Explain what $scope is
 * Use modules and controllers
 	* to define a $scope property
 	* to define a $scope method
 * Use $http built in service to communicate with an API
-
+* Use ngRoute module to create navigation
 
 ### Day 2
 
