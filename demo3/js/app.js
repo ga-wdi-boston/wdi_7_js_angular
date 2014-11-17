@@ -6,13 +6,13 @@ angular.module('Demo').controller('MainCtrl', function($scope) {
     'use strict';
 
     $scope.users = [{
-        firstName: 'dan',
-        lastName: 'johnson'
+        first_name: 'dan',
+        last_name: 'johnson'
     }, {
-        firstName: 'ella',
-        lastName: 'johnson'
+        first_name: 'ella',
+        last_name: 'johnson'
     }, {
-        firstName: 'ava',
-        lastName: 'johnson'
+        first_name: 'ava',
+        last_name: 'johnson'
     }];
 });
