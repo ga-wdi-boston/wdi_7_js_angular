@@ -2,10 +2,21 @@
 angular.module('Demo', []);
 
 // main controller
-angular.module('Demo').controller('MainCtrl', function($scope, $http) {
+angular.module('Demo').controller('MainCtrl', function($scope) {
     'use strict';
 
-    $http.get('http://localhost:3000/users').success(function(response) {
-        $scope.users = response;
-    });
+    $scope.users = [{
+        first_name: 'dan',
+        last_name: 'johnson'
+    }, {
+        first_name: 'ella',
+        last_name: 'johnson'
+    }, {
+        first_name: 'ava',
+        last_name: 'johnson'
+    }];
+
+    $scope.createUser = function(user) {
+        $scope.users.push(user);
+    };
 });
