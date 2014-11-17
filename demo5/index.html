@@ -9,7 +9,7 @@
 
 <div class="container" ng-controller="MainCtrl">
 	<ul>
-	    <li ng-repeat="user in users | filter:search">{{ user.first_name }} {{ user.last_name }}</li>
+	    <li ng-repeat="user in users">{{ user.first_name }} {{ user.last_name }}</li>
 	</ul>
 </div>
 
