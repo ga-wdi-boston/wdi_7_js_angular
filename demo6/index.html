@@ -4,16 +4,19 @@
 <meta charset="utf-8">
 <title>Angular Demo 6</title>
 <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet">
 <script src="bower_components/angular/angular.js"></script>
 </head>
 <body ng-app="Demo">
 
 <div class="container" ng-controller="MainCtrl">
+    <h2>Users</h2>
+
 	<ul>
-	    <li ng-repeat="user in users">{{ user.first_name }} {{ user.last_name }} <a ng-href="" ng-click="deleteUser(user)">delete</a></li>
+	    <li ng-repeat="user in users">{{ user.first_name }} {{ user.last_name }} <a ng-click="editUser(user)">update</a> <a ng-click="deleteUser(user)">delete</a></li>
 	</ul>
 
-	<form role="form" name="createUserForm" ng-submit="createUser(user)" novalidate>
+	<form role="form" name="createUserForm" ng-submit="upsertUser(user)" novalidate>
         <br>
         
         <div class="form-group">
