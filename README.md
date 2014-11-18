@@ -28,11 +28,10 @@ WDI Angular
 	* to define a $scope property
 	* to define a $scope method
 * Use $http built in service to communicate with an API
-* Use ngRoute module to create navigation
-* Explain what an angular filter is
 
 ### Day 2
 
+* Use ngRoute module to create navigation
 * Explain what an angular service is
 * Use factories to share data between controllers
 * Create a custom filter
