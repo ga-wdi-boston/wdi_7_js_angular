@@ -18,10 +18,7 @@ WDI Angular
 	* ng-repeat
 	* ng-click
 	* ng-submit
-	* ng-show
 	* ng-href
-	* ng-include
-	* ng-view
 * Implment bindings and expressions in HTML
 * Explain what $scope is
 * Use modules and controllers
@@ -32,23 +29,27 @@ WDI Angular
 ### Day 2
 
 * Use ngRoute module to create navigation
+* Use built in ng directives
+	* ng-include
+	* ng-view
 * Explain what an angular service is
 * Use factories to share data between controllers
-* Create a custom filter
-* Write unit tests for custom filters
+* Refactor app.js into seperate files
 
 ### Day 3
 
+* Create a custom filter
+* Write unit tests for a custom filter
 * Write E2E tests for a CRUD page
+* Implement a CRUD page for projects
+* Implement a CRUD page for staffing requests
+
+### Day 4
+
 * Explain what a custom directive is and when you would use them
 * Explain isolate scope as related to directives
 * Explain transclusion as related to directives
 
-### Day 4
-
-* Use Yeoman to scaffold angular apps
-* Authentication using angular
-
 ### Day 5
 
-* Finish project
+* Implement a CRUD page for allocations
