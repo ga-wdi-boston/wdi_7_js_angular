@@ -1,0 +1,15 @@
+{
+  "name": "wdi-angular",
+  "description": "WDI Angular",
+  "version": "0.0.1",
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-jasmine": "^0.3.0",
+    "karma-spec-reporter": "0.0.13",
+    "karma": "^0.12.25",
+    "jasmine-core": "^2.1.2",
+    "karma-chrome-launcher": "^0.1.5"
+  },
+  "dependencies": {},
+  "scripts": {}
+}
