@@ -40,8 +40,8 @@ WDI Angular
 
 * Create a custom filter
 * Write unit tests for a custom filter
-* Write E2E tests for a CRUD page
 * Implement a CRUD page for projects
+* Write E2E tests for a CRUD page
 * Implement a CRUD page for staffing requests
 
 ### Day 4
