@@ -26,7 +26,7 @@ describe('demo page', function() {
         expect(demoPage.users.count()).toEqual(3);
     });
     
-    it('should add a local user', function() {
+    it('should add a user', function() {
         expect(demoPage.users.count()).toEqual(3);
 
         demoPage.firstNameField.sendKeys('John');
