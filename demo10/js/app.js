@@ -1,4 +1,3 @@
-// initialize the app
 angular.module('Demo', []);
 
 // main controller
