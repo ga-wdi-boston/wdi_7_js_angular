@@ -52,4 +52,4 @@ WDI Angular
 
 ### Day 5
 
-* Implement a CRUD page for allocations
+* Token authentication using Rails and AngularJS
