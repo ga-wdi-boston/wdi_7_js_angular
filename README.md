@@ -20,10 +20,7 @@ WDI Angular
 	* ng-submit
 	* ng-href
 * Implment bindings and expressions in HTML
-* Explain what $scope is
-* Use modules and controllers
-	* to define a $scope property
-	* to define a $scope method
+* Use modules and controllers to organize code
 * Use $http built in service to communicate with an API
 
 ### Day 2
