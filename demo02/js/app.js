@@ -1,37 +1,29 @@
-// initialize the app
-angular.module('Demo', []);
-
-// main controller
-angular.module('Demo').controller('MainCtrl', function($scope) {
+(function() {
     'use strict';
 
-    // basic scope properties
-    $scope.greeting = 'Hello';
+    // initialize the app
+    angular
+        .module('Demo', []);
 
-    $scope.person = {
-        firstName: 'Dan',
-        lastName: 'Johnson'
-    };
+    // main controller
+    angular
+        .module('Demo')
+        .controller('MainCtrl', MainCtrl);
 
-    // update scope properties using $watch
-    var redFruits = ['apple', 'cherry', 'strawberry'];
-    var greenFruits = ['kiwi', 'avocado', 'honeydew'];
 
-    $scope.favFruits = [];
+    function MainCtrl() {
+        var vm = this;
 
-    $scope.$watch('favColor', function(newValue, oldValue) {
-    	switch (newValue) {
-    		case 'red':
-    			$scope.favFruits = redFruits;
-    			break;
+        // basic scope properties
+        vm.greeting = 'Hello';
 
-    		case 'green':
-    			$scope.favFruits = greenFruits;
-    			break;
+        vm.person = {
+            firstName: 'Dan',
+            lastName: 'Johnson'
+        };
 
-    		default:
-    			$scope.favFruits = [];
-    			break;
-    	}
-    });
-});
+        vm.redFruits = ['apple', 'cherry', 'strawberry'];
+        vm.greenFruits = ['kiwi', 'avocado', 'honeydew'];
+    }
+
+})();
